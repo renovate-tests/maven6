@@ -1,5 +1,10 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "packageRules": [{
+    "datasources": ["maven"],
+    "packageNames": ["guava"],
+    "versionScheme": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(-(?<compatibility>.*))?$"
+  }]
 }

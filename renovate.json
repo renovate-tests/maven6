@@ -4,6 +4,6 @@
   ],
   "packageRules": [{
     "packageNames": ["com.google.guava:guava"],
-    "versionScheme": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(-(?<compatibility>.*))?$"
+    "versionScheme": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(-(?<compatibility>.*))?$"
   }]
 }

@@ -5,5 +5,8 @@
   "packageRules": [{
     "packageNames": ["com.google.guava:guava"],
     "versionScheme": "regex:^(?<major>\\d+)(\\.(?<minor>\\d+))?(\\.(?<patch>\\d+))?(-(?<compatibility>.*))?$"
+  }, {
+    "packageNames": ["dnsjava:dnsjava"],
+    "versionScheme": "semver"
   }]
 }

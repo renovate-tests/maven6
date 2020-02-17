@@ -3,8 +3,7 @@
     "config:base"
   ],
   "packageRules": [{
-    "datasources": ["maven"],
-    "packageNames": ["guava"],
+    "packageNames": ["com.google.guava:guava"],
     "versionScheme": "regex:^(?<major>\\d+)\\.(?<minor>\\d+)\\.(?<patch>\\d+)(-(?<compatibility>.*))?$"
   }]
 }
